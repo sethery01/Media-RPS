@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    Player p = malloc(sizeof(Player));
+    Player p = malloc(sizeof(struct _player));
 
     printf("\n=== Welcome to media based rock paper scissor ===!\n\n");
     printf("Please enter your one word name and press enter: ");
